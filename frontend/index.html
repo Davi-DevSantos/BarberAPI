@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="js.js" defer></script>
+    <nav class="navbar">
+        <ul>Inicio</ul>
+        <ul>sobre nós</ul>
+        <ul>Localização</ul>
+    </nav>
+    <div class="toast-container" aria-atomic="true" aria-live="polite"></div>
+    <div class="container">
+        <h2>Agende seu horário</h2>
+        <div class="agendamento">
+            <label for="nome">Seu nome</label>
+            <input class="form-control" type="text" name="username" placeholder="Seu Nome" id="input-name">
+            <label for="numero">Seu número</label>
+            <input class="form-control" type="number" name="phone" placeholder="Seu numero" id="input-number">
+            <label for="email">Seu email (opcional)</label>
+            <input class="form-control" type="email" name="email" placeholder="seu@email.com" id="input-email">
+            <label for="servico">Escolha qual o Serviço</label>
+            <input class="form-control" type="text" name="services" placeholder="Servico" id="input-service">
+            <label for="data">Data do agendamento</label>
+            <input class="form-date" type="datetime-local" name="datetime" id="input-date">
+            <input class="form-btn" type="button" value="Agendar horário" id="input-buttom">
+            <p id="msg-schedule" class="msg"></p>
+        </div>
+    </div>
+</body>
+
+</html>
